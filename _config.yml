@@ -61,17 +61,16 @@ staticman:
         format: # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
   endpoint: # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
-  siteKey: "6LfPykwUAAAAABh2PsHzcHLRKGvfMUIiHOf-kRYH"
-  secret: "yTL4Wi/1qmLhLbPEzBNBVvQ7LYHwG//607P9IDhY/T7UWwwuA+oN5BSihpFcbkY4ADbuqZgXL0HtWwX1HnZiTmh/as28BTbkQ/qdLGdukpciHuzoftXEK7s7fCGtkkF9vF0d0dTYznlV7NwM7FZrc8HeDsZ0K2YdUPANwwnLQzY="
+  siteKey: 
 atom_feed:
   path: # blank (default) uses feed.xml
 search: true #false (default)
 search_full_content: true #false (default)
-search_provider: algolia # lunr (default), algolia, google
+search_provider: # lunr (default), algolia, google
 algolia:
-  application_id: OBNLJ1YKNJ # YOUR_APPLICATION_ID
-  index_name: blog # YOUR_INDEX_NAME
-  search_only_api_key: 22b7cff334143c6a193da680cf1c8f7c # YOUR_SEARCH_ONLY_API_KEY
+  application_id: # YOUR_APPLICATION_ID
+  index_name: ## YOUR_INDEX_NAME
+  search_only_api_key:  # YOUR_SEARCH_ONLY_API_KEY
   powered_by: # true (default), false
 google:
   search_engine_id: # YOUR_SEARCH_ENGINE_ID
