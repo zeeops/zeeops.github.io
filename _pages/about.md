@@ -24,13 +24,10 @@ I'm SIyad
 On this site, you’ll find my writings on some of my favourite things:
 
 <p class="notice">
-  <strong>Decentralized, Distributed and Federated systems | Open Source Software | Digital Privacy | Artificial Intelligence | Product Development | Software Development | Cryptocurrency | Data Science | Product Management | InfoSec | Leadership | Decentralized Governance | Supply Chains | Ethical Design | Economics | Economic Empowerment | Plant-Based Lifestyle | Yoga | Woodlands | Trees | Jogging | Venture Capital | Capital Markets | Startups | Mandarin</strong>
+  <strong>Open Source Software | Automation | Linux | Devops | Cloud </strong>
 </p>
 
 
-I am curious about everything, dig making really complex stuff simple and am a massive product geek. Being an **Engineer** and an **Economist**, I predictably (yes, I know...) became fascinated by decentralization and federation (i.e., I'll probably read - or skim - your white paper if I come across it). I'm specially interested in initiatives that help boost economic empowerment.
-
-Otherwise, you'll find me with ∞ tabs open in my browser, eating 🌱 food, practicing yoga, jogging or enjoying the outdoors.
 
 <!--
 <lastBuildDate>
