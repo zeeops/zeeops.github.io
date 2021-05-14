@@ -29,9 +29,3 @@ DEmo Demo
 <p><img src="{{site.baseurl}}/assets/images/post_images/vmwareexporter.png" alt="" class="align-center" /></p>
 <figcaption></figcaption>
 
-
-
-<!--p class="notice">
-  <strong>If you believe in our mission and would like to get involved, do reach out!</strong>
-  <br>Tack, Obrigada, Thanks! 😍
-</p>
