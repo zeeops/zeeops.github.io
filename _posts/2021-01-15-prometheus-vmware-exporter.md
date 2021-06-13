@@ -29,81 +29,13 @@ I'll demonstrate how to set up VMware Exporter to connect to VMware vCenter and 
 Basic Alerting rule for exporter
 vm guest machine :
 
-    - name: target
-    
-    rules:
-    
-    - alert: VirtualMachineMemoryWarning
-    
-    expr: vmware_vm_mem_usage_average / 100 >= 80
-    
-    for: 5m
-    
-    labels:
-    
-    severity: warning
-    
-    team: devops
-    
-    annotations:
-    
-    summary: Virtual Machine Memory Warning (instance {{ $labels.instance }})
-    
-    description: High memory usage on {{ $labels.instance }}
-    
-      
-      
-    
-    - name: CPU
-    
-    rules:
-    
-    - alert: VirtualMachineCPUWarning
-    
-    expr: vmware_vm_cpu_usagemhz_average / 100 >= 80
-    
-    for: 5m
-    
-    labels:
-    
-    severity: warning
-    
-    team: devops
-    
-    annotations:
-    
-    summary: Virtual Machine CPU Warning (instance {{ $labels.instance }})
-    
-    description: High CPU usage on {{ $labels.instance }}
-    
-    - name: Disk
-    
-    rules:
-    
-    - alert: VirtualMachineDiskWarning
-    
-    expr: (vmware_vm_guest_disk_free )/ (vmware_vm_guest_disk_capacity) *100 < 20
-    
 
-    for: 5m
-    
-    labels:
-    
-    severity: warning
-    
-    team: devops
-    
-    annotations:
-    
-    summary: Virtual Machine Disk Warning (instance {{ $labels.instance }})
-    
-    description: High Disk usage on {{ $labels.instance }}
 
 <p><img src="{{site.baseurl}}/assets/images/post_images/vmwareexporter.png" alt="" class="align-center" /></p>
 <figcaption></figcaption>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxODI4MDc3LDE1MDk5NjUzNjEsLTE3MD
+eyJoaXN0b3J5IjpbNjA5OTE2OTUzLDE1MDk5NjUzNjEsLTE3MD
 gxODcyODksLTIxMTAwMjM0NjNdfQ==
 -->
