@@ -1,26 +1,21 @@
 ---
-title: "Prometheus Vmware Exporter"
-excerpt: ""
+title: 'How to Monitor vmware Vcenter with prometheus '
 header:
-    #overlay_image: /assets/images/writinghabit.jpg
-    #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-    #cta_label: "More Info"
-    #cta_url: "https://unsplash.com"
-    overlay_filter: 0.25
-    teaser: /assets/images/post_images/vmwareexporter.png
+  overlay_filter: 0.25
+  teaser: /assets/images/post_images/vmwareexporter.png
 categories:
   - monitoring
 tags:
   - Prometheus
   - vmware
-date: 2021-01-15
-#last_modified_at: 2018-04-04  
+date: {}
 author_profile: true
 comments: true
 share: true
 featured: false
 classes: wide
 newsletter: false
+published: true
 ---
 
 Demo DEmo
@@ -28,4 +23,3 @@ DEmo Demo
 
 <p><img src="{{site.baseurl}}/assets/images/post_images/vmwareexporter.png" alt="" class="align-center" /></p>
 <figcaption></figcaption>
-
