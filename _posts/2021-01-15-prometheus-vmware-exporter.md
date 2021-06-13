@@ -84,6 +84,7 @@ vm guest machine :
     
     expr: (vmware_vm_guest_disk_free )/ (vmware_vm_guest_disk_capacity) *100 < 20
     
+
     for: 5m
     
     labels:
@@ -103,6 +104,6 @@ vm guest machine :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2ODQyNTUwOSwxNTA5OTY1MzYxLC0xNz
-A4MTg3Mjg5LC0yMTEwMDIzNDYzXX0=
+eyJoaXN0b3J5IjpbNzUxODI4MDc3LDE1MDk5NjUzNjEsLTE3MD
+gxODcyODksLTIxMTAwMjM0NjNdfQ==
 -->
