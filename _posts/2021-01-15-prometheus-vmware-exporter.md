@@ -29,7 +29,7 @@ I'll demonstrate how to set up VMware Exporter to connect to VMware vCenter and 
 Basic Alerting rule for exporter
 
 > Exporter used for connecting vmware Vcenter:
-> https://github.com/pryorda/vmware_exporter
+> [https://github.com/pryorda/vmware_exporter](https://github.com/pryorda/vmware_exporter)
 
 vm guest machine :
 
@@ -56,7 +56,7 @@ All alerting rules are placed on my git repo
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMzQ1Mjc0MywtNjA2NDI5MDM1LDUyMT
-c1MTM5MSwtNDI1MDcyOTI0LDE1MDk5NjUzNjEsLTE3MDgxODcy
-ODksLTIxMTAwMjM0NjNdfQ==
+eyJoaXN0b3J5IjpbLTEyOTk3NDg1NDYsLTYyMzQ1Mjc0MywtNj
+A2NDI5MDM1LDUyMTc1MTM5MSwtNDI1MDcyOTI0LDE1MDk5NjUz
+NjEsLTE3MDgxODcyODksLTIxMTAwMjM0NjNdfQ==
 -->
