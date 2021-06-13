@@ -23,12 +23,14 @@ classes: wide
 newsletter: false
 ---
 
-Demo DEmo
-DEmo Demo
+Prometheus is a monitoring tool that stores time series data such as metrics. Grafana is used to visualise the data in Prometheus, whereas alert manager is used to send out alerts.
+
+
 
 <p><img src="{{site.baseurl}}/assets/images/post_images/vmwareexporter.png" alt="" class="align-center" /></p>
 <figcaption></figcaption>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTAwMjM0NjNdfQ==
+eyJoaXN0b3J5IjpbLTE3MDgxODcyODksLTIxMTAwMjM0NjNdfQ
+==
 -->
