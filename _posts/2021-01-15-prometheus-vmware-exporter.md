@@ -36,11 +36,12 @@ vm guest machine :
 		    expr: vmware_vm_mem_usage_average / 100 >= 80
 		    for: 5m
 		    labels:
-    severity: warning
-    team: devops
-    annotations:
-    summary: Virtual Machine Memory Warning (instance {{ $labels.instance }})
-    description: High memory usage on {{ $labels.instance }}
+			  severity: warning
+			  team: devops
+		    annotations:
+			  summary: Virtual Machine Memory Warning (instance {{ $labels.instance }})
+			  description: High memory usage on {{ $labels.instance }}
+All alerting rules are placed on my git 
 
 <p><img src="{{site.baseurl}}/assets/images/post_images/vmwareexporter.png" alt="" class="align-center" /></p>
 <figcaption></figcaption>
@@ -48,6 +49,6 @@ vm guest machine :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MjQwNDA1NCwxNTA5OTY1MzYxLC0xNz
-A4MTg3Mjg5LC0yMTEwMDIzNDYzXX0=
+eyJoaXN0b3J5IjpbLTEwNjE3MzAxMzIsMTUwOTk2NTM2MSwtMT
+cwODE4NzI4OSwtMjExMDAyMzQ2M119
 -->
