@@ -30,12 +30,12 @@ Basic Alerting rule for exporter
 vm guest machine :
 
     groups:
-	  - name: target
-    rules:
-    - alert: VirtualMachineMemoryWarning
-    expr: vmware_vm_mem_usage_average / 100 >= 80
-    for: 5m
-    labels:
+	  - name: memory
+	    rules:
+		  - alert: VirtualMachineMemoryWarning
+		    expr: vmware_vm_mem_usage_average / 100 >= 80
+		    for: 5m
+		    labels:
     severity: warning
     team: devops
     annotations:
@@ -48,6 +48,6 @@ vm guest machine :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4NzA0MTI2LDE1MDk5NjUzNjEsLTE3MD
-gxODcyODksLTIxMTAwMjM0NjNdfQ==
+eyJoaXN0b3J5IjpbMTU1MjQwNDA1NCwxNTA5OTY1MzYxLC0xNz
+A4MTg3Mjg5LC0yMTEwMDIzNDYzXX0=
 -->
