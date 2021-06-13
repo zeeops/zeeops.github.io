@@ -25,12 +25,13 @@ newsletter: false
 
 Prometheus is a monitoring tool that stores time series data such as metrics. Grafana is used to visualise the data in Prometheus, whereas alert manager is used to send out alerts.
 
+I'll demonstrate how to set up VMware Exporter to connect to VMware vCenter and retrieve all metrics on Prometheus.
 
 
 <p><img src="{{site.baseurl}}/assets/images/post_images/vmwareexporter.png" alt="" class="align-center" /></p>
 <figcaption></figcaption>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDgxODcyODksLTIxMTAwMjM0NjNdfQ
-==
+eyJoaXN0b3J5IjpbMTUwOTk2NTM2MSwtMTcwODE4NzI4OSwtMj
+ExMDAyMzQ2M119
 -->
