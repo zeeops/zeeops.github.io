@@ -41,7 +41,9 @@ vm guest machine :
 		    annotations:
 			  summary: Virtual Machine Memory Warning (instance {{ $labels.instance }})
 			  description: High memory usage on {{ $labels.instance }}
-All alerting rules are placed on my git 
+All alerting rules are placed on my git repo
+
+> 
 
 <p><img src="{{site.baseurl}}/assets/images/post_images/vmwareexporter.png" alt="" class="align-center" /></p>
 <figcaption></figcaption>
@@ -49,6 +51,6 @@ All alerting rules are placed on my git
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjE3MzAxMzIsMTUwOTk2NTM2MSwtMT
-cwODE4NzI4OSwtMjExMDAyMzQ2M119
+eyJoaXN0b3J5IjpbLTQyNTA3MjkyNCwxNTA5OTY1MzYxLC0xNz
+A4MTg3Mjg5LC0yMTEwMDIzNDYzXX0=
 -->
