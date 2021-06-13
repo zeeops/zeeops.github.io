@@ -27,6 +27,10 @@ Prometheus is a monitoring tool that stores time series data such as metrics. Gr
 
 I'll demonstrate how to set up VMware Exporter to connect to VMware vCenter and retrieve all metrics on Prometheus.
 Basic Alerting rule for exporter
+
+> Exporter used for connecting vmware Vcenter:
+> https://github.com/pryorda/vmware_exporter
+
 vm guest machine :
 
     groups:
@@ -52,7 +56,7 @@ All alerting rules are placed on my git repo
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MTYzNTkyNSwtNjA2NDI5MDM1LDUyMT
+eyJoaXN0b3J5IjpbLTYyMzQ1Mjc0MywtNjA2NDI5MDM1LDUyMT
 c1MTM5MSwtNDI1MDcyOTI0LDE1MDk5NjUzNjEsLTE3MDgxODcy
 ODksLTIxMTAwMjM0NjNdfQ==
 -->
