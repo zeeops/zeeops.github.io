@@ -49,14 +49,14 @@ vm guest machine :
 
 All alerting rules are placed on my git repo
 
-> https://github.com/zeeops/vmware_exporter.git
+> [https://github.com/zeeops/vmware_exporter.git](https://github.com/zeeops/vmware_exporter.git)
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTk3NDg1NDYsLTYyMzQ1Mjc0MywtNj
-A2NDI5MDM1LDUyMTc1MTM5MSwtNDI1MDcyOTI0LDE1MDk5NjUz
-NjEsLTE3MDgxODcyODksLTIxMTAwMjM0NjNdfQ==
+eyJoaXN0b3J5IjpbLTU1NDMyMDU4LC02MjM0NTI3NDMsLTYwNj
+QyOTAzNSw1MjE3NTEzOTEsLTQyNTA3MjkyNCwxNTA5OTY1MzYx
+LC0xNzA4MTg3Mjg5LC0yMTEwMDIzNDYzXX0=
 -->
