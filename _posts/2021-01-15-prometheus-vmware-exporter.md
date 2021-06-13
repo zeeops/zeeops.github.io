@@ -29,28 +29,25 @@ I'll demonstrate how to set up VMware Exporter to connect to VMware vCenter and 
 Basic Alerting rule for exporter
 vm guest machine :
 
-groups:
-- name: target
-rules:
-- alert: VirtualMachineMemoryWarning
-expr: vmware_vm_mem_usage_average / 100 >= 80
-for: 5m
-labels:
-severity: warning
-team: devops
-
-annotations:
-
-summary: Virtual Machine Memory Warning (instance {{ $labels.instance }})
-
-description: High memory usage on {{ $labels.instance }}
-
+    groups:
+	  - name: target
+    rules:
+    - alert: VirtualMachineMemoryWarning
+    expr: vmware_vm_mem_usage_average / 100 >= 80
+    for: 5m
+    labels:
+    severity: warning
+    team: devops
+    annotations:
+    summary: Virtual Machine Memory Warning (instance {{ $labels.instance }})
+    description: High memory usage on {{ $labels.instance }}
 
 <p><img src="{{site.baseurl}}/assets/images/post_images/vmwareexporter.png" alt="" class="align-center" /></p>
 <figcaption></figcaption>
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTg5MTE3MDQsMTUwOTk2NTM2MSwtMT
-cwODE4NzI4OSwtMjExMDAyMzQ2M119
+eyJoaXN0b3J5IjpbMzI4NzA0MTI2LDE1MDk5NjUzNjEsLTE3MD
+gxODcyODksLTIxMTAwMjM0NjNdfQ==
 -->
