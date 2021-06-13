@@ -41,16 +41,17 @@ vm guest machine :
 		    annotations:
 			  summary: Virtual Machine Memory Warning (instance {{ $labels.instance }})
 			  description: High memory usage on {{ $labels.instance }}
+
 All alerting rules are placed on my git repo
 
 > https://github.com/zeeops/vmware_exporter.git
 
-<p><img src="{{site.baseurl}}/assets/images/post_images/vmwareexporter.png" alt="" class="align-center" /></p>
-<figcaption></figcaption>
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxNzUxMzkxLC00MjUwNzI5MjQsMTUwOT
-k2NTM2MSwtMTcwODE4NzI4OSwtMjExMDAyMzQ2M119
+eyJoaXN0b3J5IjpbLTM2NzUxNzc1Nyw1MjE3NTEzOTEsLTQyNT
+A3MjkyNCwxNTA5OTY1MzYxLC0xNzA4MTg3Mjg5LC0yMTEwMDIz
+NDYzXX0=
 -->
