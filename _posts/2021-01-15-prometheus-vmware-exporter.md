@@ -22,6 +22,8 @@ featured: false
 classes: wide
 newsletter: false
 ---
+<p><img src="{{site.baseurl}}/assets/images/post_images/vmwareexporter.png" alt="" class="align-center" /></p>
+<figcaption></figcaption>
 
 Prometheus is a monitoring tool that stores time series data such as metrics. Grafana is used to visualise the data in Prometheus, whereas alert manager is used to send out alerts.
 
@@ -42,6 +44,7 @@ vm guest machine :
 			  summary: Virtual Machine Memory Warning (instance {{ $labels.instance }})
 			  description: High memory usage on {{ $labels.instance }}
 
+
 All alerting rules are placed on my git repo
 
 > https://github.com/zeeops/vmware_exporter.git
@@ -51,7 +54,7 @@ All alerting rules are placed on my git repo
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NzUxNzc1Nyw1MjE3NTEzOTEsLTQyNT
+eyJoaXN0b3J5IjpbLTYwNjQyOTAzNSw1MjE3NTEzOTEsLTQyNT
 A3MjkyNCwxNTA5OTY1MzYxLC0xNzA4MTg3Mjg5LC0yMTEwMDIz
 NDYzXX0=
 -->
