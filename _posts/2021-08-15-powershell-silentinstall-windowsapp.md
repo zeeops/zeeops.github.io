@@ -1,5 +1,5 @@
 ---
-title: "How To Monitor Vmware vcenter with Prometheus"
+title: "Power shell script to install remote exe file silently"
 excerpt: ""
 header:
     #overlay_image: /assets/images/writinghabit.jpg
@@ -9,10 +9,12 @@ header:
     overlay_filter: 0.25
     teaser: /assets/images/post_images/vmwareexporter.png
 categories:
-  - monitoring
+  - powershell
+  - windows
 tags:
-  - Prometheus
-  - vmware
+  - powershell
+  - windows
+  - automation
 date: 2021-01-15
 #last_modified_at: 2018-04-04  
 author_profile: true
@@ -56,7 +58,7 @@ All alerting rules are placed on my git repo
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDMyMDU4LC02MjM0NTI3NDMsLTYwNj
-QyOTAzNSw1MjE3NTEzOTEsLTQyNTA3MjkyNCwxNTA5OTY1MzYx
-LC0xNzA4MTg3Mjg5LC0yMTEwMDIzNDYzXX0=
+eyJoaXN0b3J5IjpbNTg4OTg2OTExLC01NTQzMjA1OCwtNjIzND
+UyNzQzLC02MDY0MjkwMzUsNTIxNzUxMzkxLC00MjUwNzI5MjQs
+MTUwOTk2NTM2MSwtMTcwODE4NzI4OSwtMjExMDAyMzQ2M119
 -->
