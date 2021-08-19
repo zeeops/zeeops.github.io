@@ -7,7 +7,7 @@ header:
     #cta_label: "More Info"
     #cta_url: "https://unsplash.com"
     overlay_filter: 0.25
-    teaser: /assets/images/post_images/vmwareexporter.png
+    teaser: /assets/images/post_images/windows_automation.png
 categories:
   - powershell
   - windows
@@ -58,8 +58,8 @@ All alerting rules are placed on my git repo
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzA0NTk0NCwtNTU0MzIwNTgsLTYyMz
-Q1Mjc0MywtNjA2NDI5MDM1LDUyMTc1MTM5MSwtNDI1MDcyOTI0
-LDE1MDk5NjUzNjEsLTE3MDgxODcyODksLTIxMTAwMjM0NjNdfQ
-==
+eyJoaXN0b3J5IjpbMTYzNDI3MTczNCwxNDE3MDQ1OTQ0LC01NT
+QzMjA1OCwtNjIzNDUyNzQzLC02MDY0MjkwMzUsNTIxNzUxMzkx
+LC00MjUwNzI5MjQsMTUwOTk2NTM2MSwtMTcwODE4NzI4OSwtMj
+ExMDAyMzQ2M119
 -->
