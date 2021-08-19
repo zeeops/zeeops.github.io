@@ -25,41 +25,15 @@ classes: wide
 newsletter: false
 ---
 
-Prometheus is a monitoring tool that stores time series data such as metrics. Grafana is used to visualise the data in Prometheus, whereas alert manager is used to send out alerts.
-
-I'll demonstrate how to set up VMware Exporter to connect to VMware vCenter and retrieve all metrics on Prometheus.
-Basic Alerting rule for exporter
-
-> Exporter used for connecting vmware Vcenter:
-> [https://github.com/pryorda/vmware_exporter](https://github.com/pryorda/vmware_exporter)
-
-vm guest machine :
-
-    groups:
-	  - name: memory
-	    rules:
-		  - alert: VirtualMachineMemoryWarning
-		    expr: vmware_vm_mem_usage_average / 100 >= 80
-		    for: 5m
-		    labels:
-			  severity: warning
-			  team: devops
-		    annotations:
-			  summary: Virtual Machine Memory Warning (instance {{ $labels.instance }})
-			  description: High memory usage on {{ $labels.instance }}
-
-
-All alerting rules are placed on my git repo
-
-> [https://github.com/zeeops/vmware_exporter.git](https://github.com/zeeops/vmware_exporter.git)
+This script will silently install almost any type of software on Windows. It's not a dynamic script, so don't expect it to change. It's written in such a way that you'll have to put all of your software in a.csv file, together with their quiet install switches and remote download url. Only software that supports silent installation is supported by the script. Script will detect them and silently install all of your software.
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNDI3MTczNCwxNDE3MDQ1OTQ0LC01NT
-QzMjA1OCwtNjIzNDUyNzQzLC02MDY0MjkwMzUsNTIxNzUxMzkx
-LC00MjUwNzI5MjQsMTUwOTk2NTM2MSwtMTcwODE4NzI4OSwtMj
-ExMDAyMzQ2M119
+eyJoaXN0b3J5IjpbMTAxMjUzOTA4NSwxNjM0MjcxNzM0LDE0MT
+cwNDU5NDQsLTU1NDMyMDU4LC02MjM0NTI3NDMsLTYwNjQyOTAz
+NSw1MjE3NTEzOTEsLTQyNTA3MjkyNCwxNTA5OTY1MzYxLC0xNz
+A4MTg3Mjg5LC0yMTEwMDIzNDYzXX0=
 -->
