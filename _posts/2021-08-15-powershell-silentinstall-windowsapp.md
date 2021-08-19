@@ -15,7 +15,7 @@ tags:
   - powershell
   - windows
   - automation
-date: 2021-01-15
+date: 2021-08-15
 #last_modified_at: 2018-04-04  
 author_profile: true
 comments: true
@@ -58,7 +58,8 @@ All alerting rules are placed on my git repo
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg4OTg2OTExLC01NTQzMjA1OCwtNjIzND
-UyNzQzLC02MDY0MjkwMzUsNTIxNzUxMzkxLC00MjUwNzI5MjQs
-MTUwOTk2NTM2MSwtMTcwODE4NzI4OSwtMjExMDAyMzQ2M119
+eyJoaXN0b3J5IjpbMTQxNzA0NTk0NCwtNTU0MzIwNTgsLTYyMz
+Q1Mjc0MywtNjA2NDI5MDM1LDUyMTc1MTM5MSwtNDI1MDcyOTI0
+LDE1MDk5NjUzNjEsLTE3MDgxODcyODksLTIxMTAwMjM0NjNdfQ
+==
 -->
