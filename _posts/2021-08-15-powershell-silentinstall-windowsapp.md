@@ -27,13 +27,16 @@ newsletter: false
 
 This script will silently install almost any type of software on Windows. It's not a dynamic script, so don't expect it to change. It's written in such a way that you'll have to put all of your software in a.csv file, together with their quiet install switches and remote download url. Only software that supports silent installation is supported by the script. Script will detect them and silently install all of your software.
 
+CSV file should contain 3 fields , Installer,silent switch and Download UR
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDcxNjg4MSwxMDEyNTM5MDg1LDE2Mz
-QyNzE3MzQsMTQxNzA0NTk0NCwtNTU0MzIwNTgsLTYyMzQ1Mjc0
-MywtNjA2NDI5MDM1LDUyMTc1MTM5MSwtNDI1MDcyOTI0LDE1MD
-k5NjUzNjEsLTE3MDgxODcyODksLTIxMTAwMjM0NjNdfQ==
+eyJoaXN0b3J5IjpbLTIxMjM4NDQ1NzMsLTkyNDcxNjg4MSwxMD
+EyNTM5MDg1LDE2MzQyNzE3MzQsMTQxNzA0NTk0NCwtNTU0MzIw
+NTgsLTYyMzQ1Mjc0MywtNjA2NDI5MDM1LDUyMTc1MTM5MSwtND
+I1MDcyOTI0LDE1MDk5NjUzNjEsLTE3MDgxODcyODksLTIxMTAw
+MjM0NjNdfQ==
 -->
