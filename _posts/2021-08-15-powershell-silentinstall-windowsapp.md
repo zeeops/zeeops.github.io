@@ -1,5 +1,5 @@
 ---
-title: "Power shell script to install remote exe file silently"
+title: "Power shell script to install exe file from csv"
 excerpt: ""
 header:
     #overlay_image: /assets/images/writinghabit.jpg
@@ -32,8 +32,8 @@ This script will silently install almost any type of software on Windows. It's n
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMjUzOTA4NSwxNjM0MjcxNzM0LDE0MT
-cwNDU5NDQsLTU1NDMyMDU4LC02MjM0NTI3NDMsLTYwNjQyOTAz
-NSw1MjE3NTEzOTEsLTQyNTA3MjkyNCwxNTA5OTY1MzYxLC0xNz
-A4MTg3Mjg5LC0yMTEwMDIzNDYzXX0=
+eyJoaXN0b3J5IjpbLTkyNDcxNjg4MSwxMDEyNTM5MDg1LDE2Mz
+QyNzE3MzQsMTQxNzA0NTk0NCwtNTU0MzIwNTgsLTYyMzQ1Mjc0
+MywtNjA2NDI5MDM1LDUyMTc1MTM5MSwtNDI1MDcyOTI0LDE1MD
+k5NjUzNjEsLTE3MDgxODcyODksLTIxMTAwMjM0NjNdfQ==
 -->
