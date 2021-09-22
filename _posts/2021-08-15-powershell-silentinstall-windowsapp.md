@@ -32,12 +32,15 @@ Silent switch of almost all software can be found from following website
 
 > https://silentinstallhq.com/
 
+
+Repository to Download script
+
     https://github.com/zeeops/powershell
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYxNjA2MjA5LDE4OTY2NTkyNDAsLTkyND
+eyJoaXN0b3J5IjpbNTg1Mjc4MzIxLDE4OTY2NTkyNDAsLTkyND
 cxNjg4MSwxMDEyNTM5MDg1LDE2MzQyNzE3MzQsMTQxNzA0NTk0
 NCwtNTU0MzIwNTgsLTYyMzQ1Mjc0MywtNjA2NDI5MDM1LDUyMT
 c1MTM5MSwtNDI1MDcyOTI0LDE1MDk5NjUzNjEsLTE3MDgxODcy
